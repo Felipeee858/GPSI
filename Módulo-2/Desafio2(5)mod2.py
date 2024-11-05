@@ -8,8 +8,10 @@ quer votar. No final do período de votação (que será quando o presidente da 
 na letra "0") o programa deve apresentar os resultados, ou seja o número total de votos que 
 cada lista conseguiu obter.
 """
-
-print("Indique o seu voto:")
-print("Lista J")
-print("Lista Y")
-print("Lista F")
+acabar=1
+while acabar ==1:
+    print("Indique o seu voto:")
+    print("Lista J")
+    print("Lista Y")
+    print("Lista F")
+    
