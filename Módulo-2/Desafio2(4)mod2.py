@@ -7,11 +7,10 @@ forma sucessiva e quando o limite da carga for atingido deve indicar que se atin
 permitido mostrando de seguida o valor apurado em taxas.
 """
 peso=0
-quantidademala=int(input("Introduza a quantidade de malas:"))
-for i in range (quantidademala+1):
-        while peso<=1000:
-            mala=int(input("Introduza o peso da mala:"))
-            peso=peso+mala
-            print(peso)
-        print("Acabou")
-print("Ultrapassou o limite")
+
+while peso <=1000:
+    peso1=int(input("Introduza o peso da mala:"))
+    peso=peso+peso1
+print("Atingiu o limite")
+#Não acabado
+
