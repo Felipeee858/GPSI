@@ -13,5 +13,4 @@ while acabar ==1:
     print("Indique o seu voto:")
     print("Lista J")
     print("Lista Y")
-    print("Lista F")
-    
+    print("Lista F") 
