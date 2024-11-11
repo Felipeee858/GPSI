@@ -1,17 +1,15 @@
-lado1=int(input("Introduza um nº Positivo: "))
-lado2=int(input("Introduza um nº Positivo: "))
-lado3=int(input("Introduza um nº Positivo: "))
+a=int(input("Introduza um nº Positivo: "))
+b=int(input("Introduza um nº Positivo: "))
+c=int(input("Introduza um nº Positivo: "))
 
-if lado1>0 and lado2>0 and lado3>0:
-    if (lado1+lado2)>lado3:
-        triângulo=True
-    if (lado2+lado3)>lado1:
-        triângulo=True
-    if (lado1+lado3)>lado2:
-        triângulo=True
-    if lado1==lado2 and lado1==lado3 and lado2==lado3:
-        print("Equilátero")
-    if lado
+if a<= 0 or b<= 0 or c <= 0 or c<=0 or a+b < c or a+c<b or b+c<a:
+
 else:
-    print("Erro algum nª introduzido é negativo")
-
+#CLASSIFICAR O TRIANGULO
+if a ==b and b==c:
+    print("Equilátero")
+#se dois iguais
+elif a==b or a == c or b==c:
+    print("Isosceles")
+else:
+        print("Escaleno")
