@@ -1,4 +1,4 @@
-Escola Secundãria Emídio Navarro
+Escola Secundária Emídio Navarro
 Curso Profissional Tecnico de Gestão e programação de sistemas informáticos
 disciplina PSI
 
